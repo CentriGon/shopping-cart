@@ -1,0 +1,114 @@
+.navbar {
+    width: 96vw;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2vw 0px 2vw;
+    position:fixed;
+    margin-top: -17vh;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 50px
+}
+
+.cart-display {
+    position: fixed;
+    background-color: rgb(219, 219, 219);
+    margin-left: 60vw;
+    height: 100vh;
+    width: 40vw;
+    margin-top: -17vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.X {
+    width: 4vw;
+    height: 4vw;
+    font-size: 30px;
+    background-color: rgba(194, 22, 22, 0);
+    border: 0px solid black;
+    align-self:flex-end;
+}
+
+.X:hover {
+    transform: scale(1.3);
+    color: rgb(49, 49, 49)
+}
+
+.Shop,
+.App {
+    margin-top: 17vh;
+}
+
+.shop-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(247, 247, 247);
+    width: 20vw;
+    padding: 10px 0px 10px 0px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.shop-item img {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 60%;
+}
+
+.item-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 30px 40px 30px 40px 
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    margin: 0px;
+}
+
+.display-list-item img {
+    width: 14vh;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.display-list-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.display-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.check-out-button {
+    width: 13vw;
+    height: 2.4vw;
+    border-radius: 19px;
+    box-shadow: 0px 2px 2px black;
+    align-self: center;
+}
+
+.grayout {
+    background-color: black;
+}
